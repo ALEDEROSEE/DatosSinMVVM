@@ -18,7 +18,9 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    ScreenUser()
+                    // Parte guiada: ScreenUser()
+                    // Ejercicio 1: la misma pantalla dentro de un Scaffold
+                    ScreenUserScaffold()
                 }
             }
         }
